@@ -52,7 +52,7 @@ function TestScreen() {
 
     // Timers  
     const [prepTime, setPrepTime] = useState(300); 
-    const [testTime, setTestTime] = useState(10);
+    const [testTime, setTestTime] = useState(120);
 
     // UI Elements
     const [showStart, setShowStart] = useState(true);
@@ -101,7 +101,7 @@ function TestScreen() {
     function nextQuestion() {
       setShowQ1(false);
       setShowQ2(true);
-      setTestTime(10);
+      setTestTime(120);
       setPrepTime(300);
       setTexts([]);
       setShowNext(false);
