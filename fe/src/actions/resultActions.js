@@ -26,7 +26,7 @@ export const createResult = (result) => async (dispatch, getState) => {
        
 
         const { data } = await axios.post(
-            'https://kyez-backend.onrender.com/add/',
+            'https://kyez-backend.onrender.com/api/results/add/',
             {result},
             {
            
